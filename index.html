@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estefanía Prados | Nutricionista</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Estefanía Prados</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="recetas.html">Generador Recetas</a></li>
+                <li><a href="testimonios.html">Testimonios</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h1>Rinde al máximo, alimenta tu potencial</h1>
+        <p>Planes personalizados para transformar tu salud y bienestar</p>
+        <a href="contacto.html" class="cta">Empieza ahora</a>
+    </section>
+
+    <section id="sobre-mi" class="reveal">
+        <h2>Sobre mí</h2>
+        <img src="assets/estefania.png" alt="Estefanía Prados" class="perfil" />
+        <p>Soy Estefanía Prados, nutricionista especializada en mejorar tu calidad de vida a través de una alimentación práctica, equilibrada y adaptada a ti.<p>
+
+        </p><span class="filosofia-destacada"><strong>Mi filosofía es: Sin dietas, solo hábitos</strong></span></p>
+        <p>Te ayudo a construir una relación sana con la comida, enfocada en la energía, el rendimiento y la salud a largo plazo.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios que transforman tu vida</h2>
+        <div class="cards-container">
+            <div class="card service-card reveal" data-service="plan">
+                <img src="assets/plan-personalizado.jpg" alt="Plan Personalizado" class="card-img">
+                <h3>Plan Personalizado</h3>
+                <p>Diseñado según tus objetivos, estilo de vida y necesidades nutricionales.</p>
+                <button class="btn-info">Ver Detalles</button>
+            </div>
+            <div class="card service-card reveal" data-service="deportiva">
+                <img src="assets/nutricion-deportiva.png" alt="Nutrición Deportiva" class="card-img">
+                <h3>Nutrición Deportiva</h3>
+                <p>Optimiza tu rendimiento, mejora tu recuperación y alcanza tus metas físicas.</p>
+                <button class="btn-info">Ver Detalles</button>
+            </div>
+            <div class="card service-card reveal" data-service="online">
+                <img src="assets/asesoria-online.png" alt="Asesoría Online" class="card-img">
+                <h3>Asesoría Online</h3>
+                <p>Atención individual desde donde estés, con seguimiento continuo.</p>
+                <button class="btn-info">Ver Detalles</button>
+            </div>
+            <div class="card service-card reveal" data-service="educacion">
+                <img src="assets/educacion-nutricional.png" alt="Educación Nutricional" class="card-img">
+                <h3>Educación Nutricional</h3>
+                <p>Aprende a comer mejor con herramientas prácticas y reales.</p>
+                <button class="btn-info">Ver Detalles</button>
+            </div>
+        </div>
+    </section>
+
+    <!--<section id="recetas" class="reveal">
+        <h2>Generador de Recetas Inteligente</h2>
+        <p class="text-center">Pronto podrás ingresar tus ingredientes y preferencias para obtener recetas saludables y deliciosas al instante.</p>
+        <div class="text-center">
+            <a href="contacto.html" class="cta">Recibir aviso de lanzamiento</a>
+        </div>
+    </section>-->
+
+    <footer class="main-footer">
+        <div class="footer-grid">
+            <div class="footer-logo">
+                <h3>Estefanía Prados</h3>
+                <p>Nutrición sin restricciones. Rinde al máximo, alimenta tu potencial.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegación</h4>
+                <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#sobre-mi">Sobre mí</a></li>
+                <li><a href="index.html#servicios">Servicios</a></li>
+                <li><a href="recetas.html">Generador Recetas</a></li>
+                <li><a href="testimonios.html">Testimonios</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contacto</h4>
+                <p><i class="fas fa-envelope"></i> info@estefaniaprados.com</p>
+                <p><i class="fas fa-phone"></i> +34 677 28 18 18</p>
+                <a href="https://wa.me/34677281818" target="_blank" class="whatsapp-link"><i class="fab fa-whatsapp"></i> Escríbeme por WhatsApp</a>
+            </div>
+            <div class="footer-social">
+                <h4>Sígueme</h4>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/nutricion_estefania/" target="_blank"><i class="fab fa-instagram"></i></a>                  
+                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Estefanía Prados. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+
+
+    <div id="modal-plan" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <span class="close-x"><i class="fas fa-times"></i></span>
+            <h3>Plan de Nutrición 100% Personalizado</h3>
+            <p>Este es el servicio estrella para quienes buscan resultados reales y duraderos. Olvídate de las dietas genéricas y de pasar hambre. Diseñaremos un plan que encaje perfectamente en tu vida, teniendo en cuenta tus horarios, tus gustos y tus metas.</p>
+            <ul>
+                <li><i class="fas fa-check-circle"></i> Entrevista inicial profunda.</li>
+                <li><i class="fas fa-check-circle"></i> Plan de alimentación semanal/mensual adaptable.</li>
+                <li><i class="fas fa-check-circle"></i> Recetario exclusivo</li>
+                <li><i class="fas fa-check-circle"></i> Revisión y ajuste continuo.</li>
+            </ul>
+            <p>Ideal para: Pérdida de grasa, aumento de masa muscular o reeducación alimentaria general.</p>
+            <a href="https://wa.me/34600123456?text=Hola%20Estefanía,%20me%20interesa%20el%20Plan%20Personalizado%20y%20quiero%20más%20información." target="_blank" class="cta-modal">Más Información (WhatsApp)</a>
+        </div>
+    </div>
+
+    <div id="modal-deportiva" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <span class="close-x"><i class="fas fa-times"></i></span>
+            <h3>Nutrición Deportiva para Rendimiento Óptimo</h3>
+            <p>Si eres deportista (profesional o amateur) y quieres llevar tu rendimiento al siguiente nivel, la nutrición es tu motor principal. Trabajaremos en la sincronización perfecta de tu alimentación con tus entrenamientos y competiciones.</p>
+            <ul>
+                <li><i class="fas fa-check-circle"></i> Estrategias de hidratación y suplementación.</li>
+                <li><i class="fas fa-check-circle"></i> Planificación de comidas pre y post-entreno.</li>
+                <li><i class="fas fa-check-circle"></i> Manejo de la composición corporal (masa muscular/grasa).</li>
+                <li><i class="fas fa-check-circle"></i> Mejora de la recuperación post-esfuerzo.</li>
+            </ul>            
+            <a href="https://wa.me/34600123456?text=Hola%20Estefanía,%20me%20interesa%20la%20Nutrición%20Deportiva%20y%20quiero%20más%20información." target="_blank" class="cta-modal">Más Información (WhatsApp)</a>
+        </div>
+    </div>
+
+    <div id="modal-online" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <span class="close-x"><i class="fas fa-times"></i></span>
+            <h3>Asesoría Online</h3>
+            <p>Recibe la misma calidad de atención y seguimiento personalizado desde la comodidad de tu casa o donde quiera que estés. La distancia no es un obstáculo para transformar tu salud.</p>
+            <ul>
+                <!--<li><i class="fas fa-check-circle"></i> Sesiones por videollamada (Zoom/Meet).</li>
+                <li><i class="fas fa-check-circle"></i> Acceso a plataforma privada de seguimiento (si aplica).</li>-->
+                <li><i class="fas fa-check-circle"></i> Comunicación directa por email/WhatsApp.</li>
+                <li><i class="fas fa-check-circle"></i> Flexibilidad total de horarios (dentro de mi disponibilidad).</li>
+            </ul>
+            <p>Ideal para: Personas con horarios ajustados, viajes frecuentes o que viven fuera de mi área local.</p>
+            <a href="https://wa.me/34600123456?text=Hola%20Estefanía,%20me%20interesa%20la%20Asesoría%20Online%20y%20quiero%20más%20información." target="_blank" class="cta-modal">Más Información (WhatsApp)</a>
+        </div>
+    </div>
+
+    <div id="modal-educacion" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <span class="close-x"><i class="fas fa-times"></i></span>
+            <h3>Educación Nutricional: Aprende y Empodérate 💪</h3>
+            <p>Mi objetivo es que no me necesites para siempre. Con este servicio, te enseño los fundamentos de la nutrición para que tomes decisiones informadas y sostenibles en tu día a día, sin mitos ni restricciones innecesarias.</p>
+            <ul>
+                <li><i class="fas fa-check-circle"></i> Taller práctico sobre etiquetado de alimentos.</li>
+                <li><i class="fas fa-check-circle"></i> Guía para crear platos equilibrados y saciantes.</li>
+                <li><i class="fas fa-check-circle"></i> Manejo de antojos y alimentación emocional.</li>
+                <li><i class="fas fa-check-circle"></i> Recursos didácticos descargables.</li>
+            </ul>
+            <p>Ideal para: Familias, grupos y personas que desean entender la ciencia detrás de lo que comen.</p>
+            <a href="https://wa.me/34600123456?text=Hola%20Estefanía,%20me%20interesa%20la%20Educación%20Nutricional%20y%20quiero%20más%20información." target="_blank" class="cta-modal">Más Información (WhatsApp)</a>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
